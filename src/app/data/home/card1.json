@@ -1,0 +1,8 @@
+{
+  "data":{
+    "title" : "Popular plans",
+    "subtitle": "Most used billing plans",
+    "labels": ["Shared", "Family", "Premium"],
+    "data"  : [50,30,20]
+  }
+}

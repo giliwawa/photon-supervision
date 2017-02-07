@@ -11,7 +11,9 @@
         <div class="subtitle secondary-text" ng-if="card.subtitle">
             {{card.subtitle}}
         </div>
-
+        <canvas id="doughnut" class="chart chart-doughnut"
+                chart-data="card.data" chart-labels="card.labels" chart-options="card.options">
+        </canvas>
         <div class="text pt-16" ng-if="card.text">
             {{card.text}}
         </div>

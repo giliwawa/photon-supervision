@@ -13,7 +13,9 @@
                 'ngSanitize',
                 'ngMaterial',
                 'pascalprecht.translate',
-                'ui.router'
+                'ui.router',
+                //Angular-chart
+                'chart.js'
                 
             ]);
 })();
