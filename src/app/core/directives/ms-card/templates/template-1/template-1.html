@@ -4,16 +4,25 @@
     </div>
 
     <div class="content pv-24 ph-16">
-        <div class="title h1" ng-if="card.title">
-            {{card.title}}
+        <div class="title h1" ng-if="card.data.title">
+            {{card.data.title}}
         </div>
 
-        <div class="subtitle secondary-text" ng-if="card.subtitle">
-            {{card.subtitle}}
+        <div class="subtitle secondary-text" ng-if="card.data.subtitle">
+            {{card.data.subtitle}}
         </div>
-        <canvas id="doughnut" class="chart chart-doughnut"
-                chart-data="card.data" chart-labels="card.labels" chart-options="card.options">
-        </canvas>
+        <div layout="row" layout-fill>
+            <div flex="50" class="divider">
+                <canvas id="doughnut" class="chart chart-doughnut" chart-click="card.onClick"
+                        chart-data="card.pie1.data" chart-labels="card.pie1.labels"chart-colors="card.pie1.colors" chart-options="card.pie1.options">
+                </canvas>
+            </div>
+            <div flex="50">
+                <canvas id="bar" class="chart chart-bar" chart-data="card.bar.data"
+                        chart-labels="card.bar.labels" chart-options="card.bar.options" chart-series="card.bar.series" height="250%">
+                </canvas>
+            </div>
+        </div>
         <div class="text pt-16" ng-if="card.text">
             {{card.text}}
         </div>

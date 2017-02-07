@@ -1,8 +1,87 @@
 {
-  "data":{
-    "title" : "Popular plans",
-    "subtitle": "Most used billing plans",
-    "labels": ["Shared", "Family", "Premium"],
-    "data"  : [50,30,20]
+  "data": {
+    "title": "Popular plans",
+    "subtitle": "Most used billing plans"
+  },
+  "pie1": {
+    "labels": [
+      "Shared",
+      "Family",
+      "Premium"
+    ],
+    "data": [
+      50,
+      30,
+      20
+    ],
+    "colors": [
+      "#52B9E8",
+      "#FF334F",
+      "#4C5999"
+    ],
+    "options": {
+      "layout": {
+        "padding": 25
+      },
+      "legend": {
+        "display": true,
+        "position": "right",
+        "labels": {
+          "fontColor": "rgb(0,0,0)"
+        }
+      }
+    }
+  },
+  "bar": {
+    "labels": [
+      "december",
+      "january",
+      "february"
+    ],
+    "data": [[
+      50,
+      47,
+      40
+    ]],
+    "dataMatrice": [
+      [
+        50,
+        47,
+        40
+      ],
+      [
+        30,
+        31,
+        25
+      ],
+      [
+        20,
+        22,
+        35
+      ]
+    ],
+    "series": [
+      "Shared"
+    ],
+    "colors": [
+      "#52B9E8",
+      "#FF334F",
+      "#4C5999"
+    ],
+    "options": {
+      "title": "Title",
+      "layout": {
+        "padding": {
+          "top": 50
+        }
+      },
+      "legend": {
+        "display": true,
+        "position": "top",
+        "labels": {
+          "fontColor": "rgb(0,0,0)"
+        }
+      }
+    }
   }
 }
