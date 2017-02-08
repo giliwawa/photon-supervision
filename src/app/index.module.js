@@ -24,7 +24,10 @@
             'app.sample',
 
             //home
-            'app.home'
+            'app.home',
+            //carOverview
+            'app.carOverview'
+
 
         ]);
 })();

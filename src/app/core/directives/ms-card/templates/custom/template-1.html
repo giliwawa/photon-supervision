@@ -1,0 +1,23 @@
+<div class="template-1">
+    <div class="media">
+        <img class="image" ng-src="{{card.media.image.src}}" alt="{{card.media.image.alt}}" ng-show="card.media.image">
+    </div>
+
+    <div class="content pv-24 ph-16">
+        <div class="title h1" ng-if="card.data.title">
+            {{card.data.title}}
+        </div>
+
+        <div class="subtitle secondary-text" ng-if="card.data.subtitle">
+            {{card.data.subtitle}}
+        </div>
+        <ui-gmap-google-map center='card.map.center' zoom='card.map.zoom'>
+            <ui-gmap-marker coords="card.marker.coords" click="alert('clicked')"
+                            options="card.marker.options" idkey="card.marker.id">
+            </ui-gmap-marker>
+        </ui-gmap-google-map>
+        <div class="text pt-16" ng-if="card.text">
+            {{card.text}}
+        </div>
+    </div>
+</div>

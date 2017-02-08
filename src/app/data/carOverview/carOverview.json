@@ -1,0 +1,23 @@
+{
+  "data":{
+    "title": "Real Time Map",
+    "subtitle": "Manage cars in real time"
+  },
+  "map":{
+    "center": {
+      "latitude": 45,
+      "longitude": -73
+    },
+    "zoom": 13
+  },
+  "marker": {
+    "id": 0,
+    "coords": {
+      "latitude": 45,
+      "longitude": -73
+    },
+    "options": {
+      "draggable": false
+    }
+  }
+}

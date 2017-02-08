@@ -15,7 +15,9 @@
                 'pascalprecht.translate',
                 'ui.router',
                 //Angular-chart
-                'chart.js'
+                'chart.js',
+                //maps
+                'uiGmapgoogle-maps'
                 
             ]);
 })();

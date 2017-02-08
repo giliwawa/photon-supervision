@@ -69,7 +69,10 @@
       "#4C5999"
     ],
     "options": {
-      "title": "Title",
+      "title": {
+        "text": "Sales per Plan",
+        "display": true
+      },
       "layout": {
         "padding": {
           "top": 50

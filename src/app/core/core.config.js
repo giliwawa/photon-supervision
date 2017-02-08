@@ -7,7 +7,7 @@
         .config(config);
 
     /** @ngInject */
-    function config($ariaProvider, $logProvider, msScrollConfigProvider, $translateProvider, fuseConfigProvider)
+    function config($ariaProvider, $logProvider, msScrollConfigProvider, $translateProvider, fuseConfigProvider, uiGmapGoogleMapApiProvider)
     {
         // Enable debug logging
         $logProvider.debugEnabled(true);
@@ -17,6 +17,10 @@
         toastr.options.positionClass = 'toast-top-right';
         toastr.options.preventDuplicates = true;
         toastr.options.progressBar = true;
+
+        uiGmapGoogleMapApiProvider.configure({
+            china: true
+        });
 
         // angular-translate configuration
         $translateProvider.useLoader('$translatePartialLoader', {
