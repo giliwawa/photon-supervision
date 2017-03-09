@@ -11,11 +11,14 @@
         <div class="subtitle secondary-text" ng-if="card.data.subtitle">
             {{card.data.subtitle}}
         </div>
-        <ui-gmap-google-map center='card.map.center' zoom='card.map.zoom'>
+        <!--<ui-gmap-google-map center='card.map.center' zoom='card.map.zoom'>
             <ui-gmap-marker coords="card.marker.coords" click="alert('clicked')"
                             options="card.marker.options" idkey="card.marker.id">
             </ui-gmap-marker>
-        </ui-gmap-google-map>
+        </ui-gmap-google-map>-->
+        <div id="map" style='width: 100%; height:450px;'>
+
+        </div>
         <div class="text pt-16" ng-if="card.text">
             {{card.text}}
         </div>
