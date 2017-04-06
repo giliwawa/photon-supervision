@@ -9,6 +9,7 @@
     "type": "shared",
     "plan_id": 9,
     "isdeleted": false,
+    "img":"D:/4eme/Semestre 2/MEANOups/Photon/photon-supervision/src/app/main/sharing/img/user.PNG",
     "schedule": [
       {
         "date": "2017-05-31T18:39:10.733Z"
@@ -28,6 +29,7 @@
     "type": "shared",
     "plan_id": 6,
     "isdeleted": false,
+    "img":"D:/4eme/Semestre 2/MEANOups/Photon/photon-supervision/src/app/main/sharing/img/user.PNG",
     "schedule": [
       {
         "date": "2018-02-17T21:37:47.270Z"
@@ -47,6 +49,7 @@
     "type": "shared",
     "plan_id": 8,
     "isdeleted": false,
+    "img":"D:/4eme/Semestre 2/MEANOups/Photon/photon-supervision/src/app/main/sharing/img/user.PNG",
     "schedule": [
       {
         "date": "2018-02-08T23:20:41.409Z"
@@ -66,6 +69,7 @@
     "type": "shared",
     "plan_id": 6,
     "isdeleted": false,
+    "img":"D:/4eme/Semestre 2/MEANOups/Photon/photon-supervision/src/app/main/sharing/img/user.PNG",
     "schedule": [
       {
         "date": "2017-11-17T08:25:05.450Z"
@@ -81,10 +85,11 @@
     "email": "Kaela.Ziemann@gmail.com",
     "created_at": "2016-08-08T21:20:22.776Z",
     "password": "p6OkFXsRl7GoXUW",
-    "adress": "017 Pearline Lock Hattie Parkway 44879-3393 Meghanstad Connecticut",
-    "type": "Buisness",
+    "adress": "017 Pearline Lock Hattie Parkway 44879-339",
+    "type": "notShared",
     "plan_id": 5,
     "isdeleted": false,
+    "img":"D:/4eme/Semestre 2/MEANOups/Photon/photon-supervision/src/app/main/sharing/img/user.PNG",
     "schedule": [
       {
         "date": "2017-09-14T10:30:44.961Z"
@@ -101,9 +106,50 @@
     "created_at": "2016-10-18T22:23:54.614Z",
     "password": "CDrAusRtut__h4_",
     "adress": "879 Kenyon Prairie Wisoky Common 76004 South Rickieberg Georgia",
-    "type": "SimpleUser",
+    "type": "notShared",
     "plan_id": 2,
     "isdeleted": false,
+    "img":"D:/4eme/Semestre 2/MEANOups/Photon/photon-supervision/src/app/main/sharing/img/user.PNG",
+    "schedule": [
+      {
+        "date": "2018-02-20T12:51:49.658Z"
+      },
+      {
+        "date": "2017-08-20T16:42:52.402Z"
+      }
+    ]
+  },
+  "user7": {
+    "name": "Ms. Marjorie Kreiger",
+    "username": "Judson49",
+    "email": "Kelley36@hotmail.com",
+    "created_at": "2016-10-18T22:23:54.614Z",
+    "password": "CDrAusRtut__h4_",
+    "adress": "879 Kenyon Prairie Wisoky Common 76004 South Rickieberg Georgia",
+    "type": "notShared",
+    "plan_id": 2,
+    "isdeleted": false,
+    "img":"D:/4eme/Semestre 2/MEANOups/Photon/photon-supervision/src/app/main/sharing/img/user.PNG",
+    "schedule": [
+      {
+        "date": "2018-02-20T12:51:49.658Z"
+      },
+      {
+        "date": "2017-08-20T16:42:52.402Z"
+      }
+    ]
+  },
+  "user8": {
+    "name": "Ms. Marjorie Kreiger",
+    "username": "Judson49",
+    "email": "Kelley36@hotmail.com",
+    "created_at": "2016-10-18T22:23:54.614Z",
+    "password": "CDrAusRtut__h4_",
+    "adress": "879 Kenyon Prairie Wisoky Common 76004 South Rickieberg Georgia",
+    "type": "notShared",
+    "plan_id": 2,
+    "isdeleted": false,
+    "img":"D:/4eme/Semestre 2/MEANOups/Photon/photon-supervision/src/app/main/sharing/img/user.PNG",
     "schedule": [
       {
         "date": "2018-02-20T12:51:49.658Z"

@@ -9,11 +9,10 @@
     /** @ngInject */
     function sharingController(sharingData)
     {
-        var vm = this;
-        var pathImg = "img/user.PNG";
+      var vm = this;
+      vm.pathImg = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
       vm.cardModel=sharingData;
 
       console.log("data :", vm.data);
-
     }
 })();
