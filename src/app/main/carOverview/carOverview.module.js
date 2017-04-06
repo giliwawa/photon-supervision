@@ -33,7 +33,7 @@
             });
 
         // Translation
-        //$translatePartialLoaderProvider.addPart('app/main/sample');
+        //$translatePartialLoaderProvider.addPart('app/main/sharing');
 
         // Api
         msApiProvider.register('carOverview', ['app/data/carOverview/carOverview.json']);

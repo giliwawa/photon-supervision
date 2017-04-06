@@ -20,13 +20,13 @@
             // Quick panel
             'app.quick-panel',
 
-            // Sample
-            'app.sample',
+            // sharing
+            'app.sharing',
 
             //home
             'app.home',
             //carOverview
-            'app.carOverview'
+            'app.carOverview',
 
 
         ]);

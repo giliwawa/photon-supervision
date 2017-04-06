@@ -36,7 +36,7 @@
             });
 
         // Translation
-        //$translatePartialLoaderProvider.addPart('app/main/sample');
+        //$translatePartialLoaderProvider.addPart('app/main/sharing');
 
         // Api
         msApiProvider.register('home', ['app/data/home/home.json']);

@@ -1,0 +1,116 @@
+{
+  "user1": {
+    "name": "Heber Moore",
+    "username": "Darlene.Daugherty45",
+    "email": "Lee_Hyatt55@yahoo.com",
+    "created_at": "2016-05-11T09:55:58.772Z",
+    "password": "pA55CDrFq1NSGDX",
+    "adress": "113 Schiller Rest Lueilwitz Pine 22630-3731 South Jayda Maine",
+    "type": "shared",
+    "plan_id": 9,
+    "isdeleted": false,
+    "schedule": [
+      {
+        "date": "2017-05-31T18:39:10.733Z"
+      },
+      {
+        "date": "2017-07-22T22:17:12.147Z"
+      }
+    ]
+  },
+  "user2": {
+    "name": "Aimee Littel",
+    "username": "Amelia.Murphy70",
+    "email": "Kaylee_Tremblay@gmail.com",
+    "created_at": "2016-07-22T06:17:51.608Z",
+    "password": "KKsVx1elvoyz3jJ",
+    "adress": "356 Mandy Terrace Jaylen Cliffs 03505 Vanceport South Carolina",
+    "type": "shared",
+    "plan_id": 6,
+    "isdeleted": false,
+    "schedule": [
+      {
+        "date": "2018-02-17T21:37:47.270Z"
+      },
+      {
+        "date": "2018-01-17T05:06:47.772Z"
+      }
+    ]
+  },
+  "user3": {
+    "name": "Ford Wunsch",
+    "username": "Percival.Blick17",
+    "email": "Susie.Haag@hotmail.com",
+    "created_at": "2016-11-05T14:29:14.098Z",
+    "password": "rrm9nEt74kxlpQo",
+    "adress": "90582 Wisozk Plaza Connelly Ports 24632-0345 Jerroldside California",
+    "type": "shared",
+    "plan_id": 8,
+    "isdeleted": false,
+    "schedule": [
+      {
+        "date": "2018-02-08T23:20:41.409Z"
+      },
+      {
+        "date": "2017-04-14T16:59:33.716Z"
+      }
+    ]
+  },
+  "user4": {
+    "name": "Anne Zieme II",
+    "username": "Frankie.Gaylord19",
+    "email": "Glen80@gmail.com",
+    "created_at": "2016-03-08T19:58:51.848Z",
+    "password": "ig66cC1Ipa3Pqai",
+    "adress": "53885 Marcella Terrace Lueilwitz Forest 20264-1431 Gloverside Ohio",
+    "type": "shared",
+    "plan_id": 6,
+    "isdeleted": false,
+    "schedule": [
+      {
+        "date": "2017-11-17T08:25:05.450Z"
+      },
+      {
+        "date": "2017-12-31T00:52:43.104Z"
+      }
+    ]
+  },
+  "user5": {
+    "name": "Frank Howe",
+    "username": "Herta.Cassin77",
+    "email": "Kaela.Ziemann@gmail.com",
+    "created_at": "2016-08-08T21:20:22.776Z",
+    "password": "p6OkFXsRl7GoXUW",
+    "adress": "017 Pearline Lock Hattie Parkway 44879-3393 Meghanstad Connecticut",
+    "type": "Buisness",
+    "plan_id": 5,
+    "isdeleted": false,
+    "schedule": [
+      {
+        "date": "2017-09-14T10:30:44.961Z"
+      },
+      {
+        "date": "2018-02-22T05:39:26.919Z"
+      }
+    ]
+  },
+  "user6": {
+    "name": "Ms. Marjorie Kreiger",
+    "username": "Judson49",
+    "email": "Kelley36@hotmail.com",
+    "created_at": "2016-10-18T22:23:54.614Z",
+    "password": "CDrAusRtut__h4_",
+    "adress": "879 Kenyon Prairie Wisoky Common 76004 South Rickieberg Georgia",
+    "type": "SimpleUser",
+    "plan_id": 2,
+    "isdeleted": false,
+    "schedule": [
+      {
+        "date": "2018-02-20T12:51:49.658Z"
+      },
+      {
+        "date": "2017-08-20T16:42:52.402Z"
+      }
+    ]
+  }
+}

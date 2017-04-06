@@ -117,7 +117,7 @@
                 function updateMarker() {
 
                     if (mapp.getSource('marker')) {
-                        var increment = 0;
+                        var increment ;
                         increment=timestamp*0.01;
 
                         var lngLtd = mapp.getSource('marker')._data.features[0].geometry.coordinates;

@@ -180,7 +180,7 @@
         // Base Url
         api.baseUrl = 'app/data/';
 
-        // api.sample = $resource(api.baseUrl + 'sample/sample.json');
+        // api.sharing = $resource(api.baseUrl + 'sharing/sharing.json');
 
         return api;
     }
