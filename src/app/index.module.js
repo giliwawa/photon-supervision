@@ -27,6 +27,9 @@
             'app.home',
             //carOverview
             'app.carOverview',
+            //maintenance
+            'app.maintenance',
+            'uiGmapgoogle-maps'
 
 
         ]);

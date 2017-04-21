@@ -1,0 +1,82 @@
+<style>
+  .angular-google-map-container {
+    height: 400px;
+  }
+</style>
+
+<div class="template-1">
+  <div class="media">
+    <img class="image" ng-src="{{card.media.image.src}}" alt="{{card.media.image.alt}}" ng-show="card.media.image">
+  </div>
+
+  <div class="content pv-24 ph-16">
+    <div class="title h1" ng-if="card.title">
+      {{card.title}}
+    </div>
+
+    <div class="subtitle secondary-text" ng-if="card.subtitle">
+      {{card.subtitle}}
+    </div>
+    <div layout="row" layout-fill>
+      <div layout="column">
+        <table class="simple" ms-responsive-table>
+          <thead>
+          <th><strong>Car name</strong></th>
+          <th><strong>Energy</strong></th>
+          <th><strong>Available</strong></th>
+          </thead>
+          <tbody>
+          <tr ng-click="card.setCurrentCar($index)" ng-repeat="car in card.page">
+            <td>{{car.carname}}</td>
+            <td>{{(car.energylvl/1000) * 100 | number : 0 }}%</td>
+            <td>{{car.available ? 'Yes' : 'No'}}</td>
+          </tr>
+          </tbody>
+        </table>
+        <div layout="row">
+          <a class="md-button" href="#" ng-click="card.prevPage()">Previous</a>
+          <a class="md-button" href="#" ng-click="card.nextPage()">Next</a>
+        </div>
+
+      </div>
+
+      <div layout="column" style="width: 100%" ng-show="card.currentCar">
+
+        <div layout-fill >
+
+          <!--ng-show="card.currentCar"-->
+          <md-card  md-theme="default" md-theme-watch>
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Details about {{card.currentCar.carname}}</span>
+              </md-card-title-text>
+            </md-card-title>
+
+            <md-card-text ng-show="card.diagStarted">
+              <strong>Sensors ...... <span ng-show="card.sensor" style="color: limegreen">OK!</span></strong>
+              <md-progress-linear ng-show="card.progBarS" md-mode="indeterminate"></md-progress-linear>
+              <br>
+              <strong>Engine ...... <span ng-show="card.engine" style="color: limegreen">OK!</span></strong>
+              <md-progress-linear ng-show="card.progBarE" md-mode="indeterminate"></md-progress-linear>
+              <br>
+              <strong>Tires ...... <span ng-show="card.tires" style="color: limegreen">OK!</span></strong>
+              <md-progress-linear ng-show="card.progBarT" md-mode="indeterminate"></md-progress-linear>
+            </md-card-text>
+            <md-card-actions layout="row" layout-align="end center">
+              <md-button ng-click="card.startDiagnose()">Diagnose</md-button>
+            </md-card-actions>
+          </md-card>
+        </div>
+      </div>
+
+    </div>
+    <div layout="row" layout-fill>
+      <ui-gmap-google-map center='card.map.center' zoom='card.map.zoom'></ui-gmap-google-map>
+    </div>
+    <div class="text pt-16" ng-if="card.text">
+      {{card.text}}
+    </div>
+  </div>
+</div>
+
+

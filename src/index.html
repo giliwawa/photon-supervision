@@ -63,8 +63,11 @@
         <div id="main" class="animate-slide-up" ui-view="main" layout="column"></div>
 
         <ms-theme-options></ms-theme-options>
-        <script src='//maps.googleapis.com/maps/api/js?key=AIzaSyCgKfp2bUmw0GVNMUkAYDugo2tj7TQb3r4'></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgKfp2bUmw0GVNMUkAYDugo2tj7TQb3r4&callback=initMap"
+                async defer></script>
         <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js'></script>
+
 
         <!-- build:js(src) scripts/vendor.js -->
         <!-- bower:js -->
