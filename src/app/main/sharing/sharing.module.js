@@ -35,18 +35,13 @@
         msApiProvider.register('sharing', ['app/data/sharing/sharing.json']);
 
         // Navigation
-        msNavigationServiceProvider.saveItem('fuse', {
-            title : 'daruom',
-            group : true,
-            weight: 1
-        });
 
         msNavigationServiceProvider.saveItem('fuse.sharing', {
             title    : 'daruom',
             icon     : 'icon-tile-four',
             state    : 'app.sharing',
             translate: 'sharing.sharing_NAV',
-            weight   : 1
+            weight   : 3
         });
     }
 })();

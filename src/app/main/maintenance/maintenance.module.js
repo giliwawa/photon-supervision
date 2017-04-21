@@ -46,7 +46,7 @@
 
     // Navigation
 
-    msNavigationServiceProvider.saveItem('fuse.home', {
+    msNavigationServiceProvider.saveItem('fuse.maintenance', {
       title    : 'Maintenance',
       icon     : 'icon-tile-four',
       state    : 'app.maintenance',
