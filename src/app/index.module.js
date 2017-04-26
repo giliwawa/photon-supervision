@@ -22,7 +22,7 @@
 
             // sharing
             'app.sharing',
-
+            'app.feedback',
             //home
             'app.home',
             //carOverview

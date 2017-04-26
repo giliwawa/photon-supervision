@@ -1,0 +1,66 @@
+<div ng-cloak layout-gt-sm="row" layout="column">
+  <div flex-gt-sm="50" flex>
+    <md-toolbar layout="row" class="md-hue-3">
+      <div class="md-toolbar-tools">
+        <span>Service Feeds</span>
+      </div>
+    </md-toolbar>
+
+    <md-content>
+      <md-list flex>
+        <md-subheader class="md-no-sticky">Customers</md-subheader>
+        <div ng-repeat="item in card">
+          <div ng-if="item.category=='service'">
+
+            <md-list-item class="md-3-line" ng-click="null">
+
+              <img src="assets/images/avatars/james.jpg" class="md-avatar" alt="{{item.name}}" />
+              <div class="md-list-item-text" layout="column">
+
+                <h4><strong style="color: #01579B;">Text :</strong>{{ item.text }}</h4>
+                <h4><strong>Username :</strong>{{ item.username }}</h4>
+                <p> Date of post :<scan style="color:#43A047 ">{{ item.date | date:'medium' }}</scan></p>
+              </div>
+
+            </md-list-item>
+            <md-divider style=" margin-top: 10px;
+
+  margin-bottom: 0; " ></md-divider>  </div>
+        </div>
+      </md-list>
+    </md-content>
+  </div>
+
+  <div flex-gt-sm="50" flex>
+    <md-toolbar layout="row" class="md-hue-3">
+      <div class="md-toolbar-tools">
+        <span>Security Feeds</span>
+      </div>
+    </md-toolbar>
+
+    <md-content>
+      <md-list flex>
+        <md-subheader class="md-no-sticky">Customers</md-subheader>
+        <div ng-repeat="item in card">
+          <div ng-if="item.category=='security'">
+
+        <md-list-item class="md-3-line" ng-click="null">
+
+            <img src="assets/images/avatars/alice.jpg" class="md-avatar" alt="{{item.name}}" />
+            <div class="md-list-item-text" layout="column">
+              <h4><strong style="color: #01579B;">Text :</strong>{{ item.text }}</h4>
+              <h4><strong>Username :</strong>{{ item.username }}</h4>
+              <p> Date of post :<scan style="color:#43A047 ">{{ item.date | date:'medium' }}</scan></p>
+
+            </div>
+
+        </md-list-item>
+        <md-divider style=" margin-top: 10px;
+
+  margin-bottom: 0; " ></md-divider>  </div>
+        </div>
+      </md-list>
+    </md-content>
+  </div>
+</div>
+

@@ -15,7 +15,7 @@
                 url    : '/sharing',
                 views  : {
                     'content@app': {
-                        templateUrl: 'app/main/sharing/sharing.html',
+                        templateUrl: 'app/main/sharing/feedback.html',
                         controller : 'sharingController as vm'
                     }
                 },
